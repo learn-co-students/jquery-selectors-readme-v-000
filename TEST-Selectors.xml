@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="5" errors="0" failures="1" time="0.014" timestamp="2016-03-12T13:53:19">
+		<testcase classname="Selectors" name="#paragraphSelector should select all paragraphs" time="0.005">
+		</testcase>
+		<testcase classname="Selectors" name="#lastImageSelector should return the last image" time="0.003">
+		</testcase>
+		<testcase classname="Selectors" name="#ninjaBabySelector should return the image of the ninja baby" time="0.001">
+		</testcase>
+		<testcase classname="Selectors" name="#divSelector should return two divs" time="0.001">
+		</testcase>
+		<testcase classname="Selectors" name="#firstListItem should return the first list item in the unordered list" time="0.003">
+			<failure type="toEqual" message="Expected &amp;apos;&amp;apos; to equal &amp;apos;&amp;lt;img src=&amp;quot;https://s3.amazonaws.com/after-school-assets/awesome.jpg&amp;quot;&amp;gt;&amp;apos;.">
+stack@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1293:37
+buildExpectationResult@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1270:19
+expectationResultFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:484:40
+addExpectationResult@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:260:70
+addExpectationResult@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:442:41
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1209:32
+file:///Users/coltonstaab/Development/code/jquery-selectors-readme-v-000/spec/selectors-spec.js:31:49
+attemptSync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1510:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1498:20
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:306:28
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+next@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1517:40
+complete@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:333:19
+clearStack@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:506:11
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1505:22
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:306:28
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+next@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1517:40
+complete@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:333:19
+clearStack@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:506:11
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1505:22
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:306:28
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+next@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1517:40
+complete@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:333:19
+clearStack@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:506:11
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1505:22
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:306:28
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+next@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1517:40
+complete@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:333:19
+clearStack@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:506:11
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1505:22
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:306:28
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1694:21
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1708:44
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1694:21
+file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:541:83
+attemptAsync@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1520:16
+run@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1496:28
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:1485:13
+queueRunnerFactory@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:518:42
+execute@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/jasmine.js:548:25
+onload@file:///Users/coltonstaab/.rvm/gems/ruby-2.2.3/gems/learn-test-2.0.0/lib/learn_test/strategies/jasmine/boot.js:172:16			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
