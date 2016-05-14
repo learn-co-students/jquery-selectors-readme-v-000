@@ -19,12 +19,12 @@ First things first, we need to link several files to `index.html`:
 
 + Our JS file: `<script src="js/selectors.js"></script>`
 
-All of these links should go inside the `head` tags. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first. 
+All of these links should go inside the `head` tags. Order here matters, if we plan on using jQuery in `js/selectors.js` that file needs to be linked first.
 
 
 ## Using Selectors
 
-To set up a jQuery selector, you start with the `$`. Every line of jQuery code should start with the `$`. 
+To set up a jQuery selector, you start with the `$`. Every line of jQuery code should start with the `$`.
 
 ```js
 $('selector-goes-here')
