@@ -16,6 +16,8 @@
 
 //$('div:last')
 
+//Done
+
 function paragraphSelector() {
 //select and return all p elements in document
   return $('p');
