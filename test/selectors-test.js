@@ -10,7 +10,7 @@ describe('Selectors', () => {
     path.resolve(__dirname, '..', 'js', 'jquery-2.1.1.min.js')
   ]
 
-  let $
+  var $
   jsdom({ html, scripts })
 
   before(() => {
