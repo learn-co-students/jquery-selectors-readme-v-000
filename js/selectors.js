@@ -1,10 +1,21 @@
 // declare your functions here...
-function paragraphSelector() {}
+/* global $ */
+function paragraphSelector() {
+     return $('p');
+}
 
-function lastImageSelector() {}
+function lastImageSelector() {
+     return $('img:last');
+}
 
-function ninjaBabySelector() {}
+function ninjaBabySelector() {
+     return $('#baby-ninja');
+}
 
-function divSelector() {}
+function divSelector() {
+     return $('div.pics');
+}
 
-function firstListItem() {}
+function firstListItem() {
+     return $('ul li:first-child');
+}
