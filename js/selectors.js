@@ -10,7 +10,7 @@ function lastImageSelector(){
 }
 
 function ninjaBabySelector(){
-  return $('img#baby-ninja')
+  return $('#baby-ninja')
 
 }
 
@@ -20,7 +20,7 @@ function divSelector(){
 
 
 function firstListItem(){
-  return $('li:first-child')
+  return $('li:first')
 }
 
 // function paragraphSelector(){
@@ -32,7 +32,7 @@ function firstListItem(){
 // }
 
 // function ninjaBabySelector(){
-//   return $('div.pics img:first') 
+//   return $('div.pics img:first')
 // }
 
 // // the lab answer
